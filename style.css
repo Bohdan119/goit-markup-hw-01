@@ -1,24 +1,198 @@
-.body {}
+.body {
+    
+        width: 1600px;
+        height: 2346px;
+        background-color: #FFFFFF;
 
-.header {}
+}
 
-.logo {}
+.header {
+    position: absolute;
+        width: 1600px;
+        height: 80px;
+        top:0px;
+        background-color: #F5F4FA;
 
-.navigation {}
+}
+.logo1{
+    color: blue;
+}
 
-.contacts {}
+.logo {
+    width: 152px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;}
+
+.navigation {
+    
+        width: 281px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+
+        padding-top:32px;
+        padding-right:866px;
+        padding-left:453px;
+        padding-bottom:32px;
+        
+}
+.nav1{position: absolute;
+    width: 45px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;}
+.nav2{
+    position: absolute;
+        width: 72px;
+        height: 16px;
+        left: 548px;
+        top: 32px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+
+.nav3{
+    position: absolute;
+        width: 64px;
+        height: 16px;
+        left: 670px;
+        top: 32px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+
+.contacts {
+        width: 135px;
+        height: 16px;
+        left: 1078px;
+        top: 32px;
+}
+.mail{
+    position: absolute;
+        width: 135px;
+        height: 16px;
+        left: 1078px;
+        top: 32px;
+
+}
+
+.tel{
+    position: absolute;
+        width: 122px;
+        height: 16px;
+        left: 1263px;
+        top: 32px;
+
+}
 
 .contact-link {}
 
 .main {}
 
-.heroy {}
+.heroy {
+    
+        border-width: 1600px;
+        height: 600px;
+        top:80;
+        background-color:#2F303A;
+        
+    }
+.heroy1{
+    position: absolute;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
 
-.button {}
 
-.skill {}
+.button {
+    display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px 32px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 430px;
+    
+        background: #2196F3;
+}
 
-.team {}
+.skill {
+    position: absolute;
+        border-width: 1170px;
+        height: 98px;
+        left: 215px;
+        top: 774px;
+}
+
+.hoby{
+    position: absolute;
+        border-width: 1170px;
+        height: 386px;
+        left: 215px;
+        top: 966px;
+}
+
+.team {
+    position: absolute;
+        border-width: 1600px;
+        height: 648px;
+        left: 0px;
+        top: 1446px;
+    
+        background: #F5F4FA;
+}
 
 .team1 {}
 
@@ -28,6 +202,16 @@
 
 .team4 {}
 
-.footer {}
+.footer {position: absolute;
+    border-width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;}
 
-.address {}
+.contact footer {
+    position: absolute;
+        border-width: 1600px;
+        height: 252px;
+        left: 0px;
+        top: 2094px;
+}
