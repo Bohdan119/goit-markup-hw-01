@@ -2,89 +2,93 @@
     
         width: 1600px;
         height: 2346px;
-        background-color: #FFFFFF;
-
+        background: #FFFFFF;
+        font-family: "Roboto";
+        width: 400;
 }
 
 .header {
-    position: absolute;
+        
         width: 1600px;
         height: 80px;
         top:0px;
-        background-color: #F5F4FA;
-
+        background: #FFFFFF;;
 }
-.logo1{
-    color: blue;
-}
-
 .logo {
+
+position: absolute;
     width: 152px;
     height: 31px;
     left: 215px;
     top: 24px;
 
     font-family: 'Raleway';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
+    
+    text-decoration-line:none;
+    color: black;
+}
 
-    letter-spacing: 0.03em;
-
-    color: #2196F3;}
+.logo1{
+    text-decoration-line:none;
+    color: #2196F3;
+}
 
 .navigation {
-    
+        
         width: 281px;
         height: 16px;
         left: 453px;
         top: 32px;
 
-        padding-top:32px;
-        padding-right:866px;
-        padding-left:453px;
-        padding-bottom:32px;
-        
-}
-.nav1{position: absolute;
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
 
-    font-family: 'Roboto';
+    color: black;
+    }
+        <!-- при наведенні колір повиннен зміюватись-->
+            
+
+.nav1{
+        width: 45px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+}
 .nav2{
     position: absolute;
-        width: 72px;
+        width: 70px;
         height: 16px;
-        left: 548px;
-        top: 32px;
+        left: 550px;
+        top: 35px;
     
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     
-        color: #212121;
+    color: #212121;
 }
 
 .nav3{
     position: absolute;
-        width: 64px;
+        width: 65px;
         height: 16px;
         left: 670px;
-        top: 32px;
+        top: 35px;
     
-        font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -95,30 +99,36 @@
 }
 
 .contacts {
+    
         width: 135px;
         height: 16px;
         left: 1078px;
-        top: 32px;
+        top: 35px;
 }
 .mail{
     position: absolute;
         width: 135px;
         height: 16px;
         left: 1078px;
-        top: 32px;
+        top: 35px;
 
 }
 
 .tel{
+    /*position: absolute;
+        width: 122px;
+        height: 16px;
+        left: 1263px;
+        top: 32px;*/
+}
+
+.contact-link {
     position: absolute;
         width: 122px;
         height: 16px;
         left: 1263px;
-        top: 32px;
-
+        top: 35px;
 }
-
-.contact-link {}
 
 .main {}
 
@@ -136,19 +146,14 @@
         height: 120px;
         left: 452px;
         top: 280px;
-    
+
         font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        /* or 136% */
-    
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-    
-        color: #FFFFFF;
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            
+            color: #FFFFFF;
 }
 
 
@@ -158,12 +163,21 @@
         align-items: flex-start;
         padding: 10px 32px;
         gap: 10px;
-    
+
         position: absolute;
         width: 216px;
         height: 50px;
         left: 692px;
         top: 430px;
+
+
+    
+        /*position: absolute;
+                padding-top: 350px;
+                    padding-left: 692px;
+                    padding-right: 692px;
+                    padding-bottom: 200px;
+            */
     
         background: #2196F3;
 }
