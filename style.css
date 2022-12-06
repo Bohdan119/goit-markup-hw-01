@@ -12,7 +12,8 @@
         width: 1600px;
         height: 80px;
         top:0px;
-        background: #FFFFFF;;
+        background: #FFFFFF;
+text-decoration: none;
 }
 .logo {
 
@@ -27,7 +28,7 @@ position: absolute;
     font-weight: 700;
     font-size: 26px;
     
-    text-decoration-line:none;
+    text-decoration:none;
     color: black;
 }
 
@@ -50,8 +51,10 @@ position: absolute;
     font-weight: 500;
 
     color: black;
+
+    hover: #000; <!-- при наведенні колір повиннен зміюватись-->
     }
-        <!-- при наведенні колір повиннен зміюватись-->
+        
             
 
 .nav1{
